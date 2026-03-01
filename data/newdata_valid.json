@@ -1,0 +1,566 @@
+[
+  {
+    "question": "A car moves with constant acceleration. It covers 20 m in the first 2 s and 40 m in the next 2 s. Find its acceleration.",
+    "solution": "Let initial velocity be u and acceleration be a. Using s = ut + (1/2)at^2. First 2 s: 20 = 2u + 2a. Next 2 s means displacement in 4 s minus displacement in 2 s: s4 = 4u + 8a. So s4 - s2 = (4u+8a)-(2u+2a) = 2u+6a = 40. From first equation 2u+2a=20. Subtracting gives 4a=20 so a=5 m/s^2. Answer: 5 m/s^2."
+  },
+  {
+    "question": "A particle starts from rest and moves with constant acceleration. It covers equal distances in successive 1 s intervals. What is the ratio of distances covered in 3rd and 1st second?",
+    "solution": "Distance in nth second = u + (a/2)(2n-1). With u=0: s_n = (a/2)(2n-1). So s3/s1 = (5a/2)/(a/2)=5. Answer: 5."
+  },
+  {
+    "question": "Two particles start simultaneously from same point in opposite directions with speeds 5 m/s and 3 m/s. Find separation after 4 s.",
+    "solution": "Relative speed = 5+3=8 m/s. Separation = 8×4=32 m. Answer: 32 m."
+  },
+  {
+    "question": "A body is projected vertically upward with speed 20 m/s. Find maximum height (g=10 m/s^2).",
+    "solution": "At top v=0. Using v^2 = u^2 - 2gh gives 0=400-20h so h=20 m. Answer: 20 m."
+  },
+  {
+    "question": "A particle moves along a line with velocity v=4t m/s. Find displacement in first 3 s.",
+    "solution": "Displacement = integral of 4t dt from 0 to 3 = 2t^2 from 0 to 3 = 18 m. Answer: 18 m."
+  },
+  {
+    "question": "A train moving at 10 m/s accelerates at 2 m/s^2. Time to reach 20 m/s?",
+    "solution": "Using v=u+at: 20=10+2t so t=5 s. Answer: 5 s."
+  },
+  {
+    "question": "A particle covers half its journey with speed v and other half with 2v. Find average speed.",
+    "solution": "Average speed for equal distances = 2v1v2/(v1+v2). So =2v×2v/(3v)=4v/3. Answer: 4v/3."
+  },
+  {
+    "question": "A stone dropped from height 45 m. Time to hit ground (g=10)?",
+    "solution": "Using h=(1/2)gt^2 gives 45=5t^2 so t^2=9 so t=3 s. Answer: 3 s."
+  },
+  {
+    "question": "Two cars start 100 m apart moving toward each other at 10 m/s and 15 m/s. Time to meet?",
+    "solution": "Relative speed=25 m/s. Time=100/25=4 s. Answer: 4 s."
+  },
+  {
+    "question": "A body thrown up with 30 m/s. Total time of flight?",
+    "solution": "Time up=u/g=3 s. Total time=6 s. Answer: 6 s."
+  },
+  {
+    "question": "Velocity-time graph is straight line through origin making slope 3. Find acceleration.",
+    "solution": "Slope of v-t graph is acceleration. Hence a=3 m/s^2. Answer: 3 m/s^2."
+  },
+  {
+    "question": "A particle moves such that x=2t^3. Find velocity at t=2 s.",
+    "solution": "v=dx/dt=6t^2. At t=2: v=24 m/s. Answer: 24 m/s."
+  },
+  {
+    "question": "A ball is thrown horizontally from height 20 m. Time to hit ground (g=10)?",
+    "solution": "Vertical motion same as free fall. 20=5t^2 gives t=2 s. Answer: 2 s."
+  },
+  {
+    "question": "If velocity doubles, by what factor does kinetic energy change?",
+    "solution": "KE proportional to v^2. So it becomes 4 times. Answer: 4."
+  },
+  {
+    "question": "A particle has constant speed but changing velocity. What must be true?",
+    "solution": "Velocity changes only if direction changes. So motion must be curved. Answer: Direction changes."
+  },
+  {
+    "question": "Distance travelled in nth second for uniformly accelerated motion?",
+    "solution": "s_n = u + (a/2)(2n-1). Answer: u + (a/2)(2n-1)."
+  },
+  {
+    "question": "A particle starts from rest with acceleration 4 m/s^2. Distance in 5 s?",
+    "solution": "s=(1/2)at^2=2×25=50 m. Answer: 50 m."
+  },
+  {
+    "question": "Two bodies dropped from heights 20 m and 45 m simultaneously. Difference in time of reaching ground?",
+    "solution": "t1=2 s, t2=3 s. Difference=1 s. Answer: 1 s."
+  },
+  {
+    "question": "If displacement-time graph is parabola, acceleration is?",
+    "solution": "Second derivative of x gives constant. So acceleration is constant. Answer: Constant."
+  },
+  {
+    "question": "A car decelerates uniformly from 20 m/s to rest in 5 s. Find retardation.",
+    "solution": "a=(0-20)/5=-4 m/s^2. Retardation=4 m/s^2. Answer: 4 m/s^2."
+  },
+  {
+    "question": "Stopping distance for body with speed 10 m/s and retardation 5 m/s^2?",
+    "solution": "Using v^2=u^2+2as gives 0=100-10s so s=10 m. Answer: 10 m."
+  },
+  {
+    "question": "Relative velocity of two parallel moving particles 8 m/s and 5 m/s in same direction?",
+    "solution": "Relative speed=3 m/s. Answer: 3 m/s."
+  },
+  {
+    "question": "A projectile has equal horizontal and vertical components initially. Angle of projection?",
+    "solution": "tanθ=1 so θ=45 degrees. Answer: 45°."
+  },
+  {
+    "question": "Time to reach maximum height for projectile with u=20 m/s at 30 degrees (g=10)?",
+    "solution": "Vertical component=10 m/s. Time=1 s. Answer: 1 s."
+  },
+  {
+    "question": "Maximum range occurs at which angle?",
+    "solution": "Range maximum at 45 degrees. Answer: 45°."
+  },
+  {
+    "question": "If acceleration is zero, velocity is?",
+    "solution": "Velocity must be constant. Answer: Constant."
+  },
+  {
+    "question": "Area under velocity-time graph gives?",
+    "solution": "Displacement. Answer: Displacement."
+  },
+  {
+    "question": "Slope of displacement-time graph gives?",
+    "solution": "Velocity. Answer: Velocity."
+  },
+  {
+    "question": "If two objects fall freely, heavier one reaches first?",
+    "solution": "In absence of air resistance both reach together. Answer: They reach together."
+  },
+  {
+    "question": "Uniform circular motion has acceleration direction?",
+    "solution": "Towards centre (centripetal). Answer: Towards centre."
+  },
+  {
+    "question": "Magnitude of centripetal acceleration?",
+    "solution": "a=v^2/r. Answer: v^2/r."
+  },
+  {
+    "question": "If speed constant and radius doubles, centripetal acceleration becomes?",
+    "solution": "a proportional to 1/r so halves. Answer: Half."
+  },
+  {
+    "question": "Average velocity over complete round trip?",
+    "solution": "Net displacement zero so average velocity zero. Answer: 0."
+  },
+  {
+    "question": "A body moves with velocity v=3t^2. Find acceleration.",
+    "solution": "a=dv/dt=6t. Answer: 6t."
+  },
+  {
+    "question": "If acceleration constant and positive, velocity-time graph shape?",
+    "solution": "Straight line with positive slope. Answer: Straight line."
+  },
+  {
+    "question": "A particle moves along x-axis with acceleration a = 6t − 4. If its velocity at t = 0 is 2 m/s, find the time when velocity becomes zero for the first time.",
+    "solution": "Integrate acceleration: v = ∫(6t−4)dt = 3t^2 − 4t + C. Using v(0)=2 gives C=2. So v=3t^2−4t+2. Set equal to zero: 3t^2−4t+2=0. Discriminant =16−24 = −8 <0. Hence velocity never becomes zero. Answer: It never becomes zero."
+  },
+  {
+    "question": "A particle has position x = t^4 − 4t^3 + 6t^2. Find number of instants when acceleration is zero.",
+    "solution": "v = 4t^3 −12t^2 +12t. a = 12t^2 −24t +12 = 12(t^2−2t+1)=12(t−1)^2. Acceleration zero at t=1 only. One instant. Answer: 1."
+  },
+  {
+    "question": "Two particles start from same point. One moves with constant velocity 5 m/s. Other starts from rest with acceleration 2 m/s^2. When do they meet again?",
+    "solution": "Positions: x1=5t, x2=(1/2)(2)t^2=t^2. Equate: t^2=5t → t(t−5)=0. Nonzero solution t=5 s. Answer: 5 s."
+  },
+  {
+    "question": "A body is projected vertically upward. During last second of ascent it travels 5 m. Find initial speed (g=10).",
+    "solution": "Let total ascent time = T = u/g. Distance in last second: s(T)−s(T−1). Using s=ut−(1/2)gt^2. Compute difference = u − gT + (1/2)g. Since gT=u, expression becomes (1/2)g=5. So (1/2)(10)=5 works. Hence any u consistent? Since independent of u, last second distance always 5 m if g=10. Therefore u arbitrary but ascent time >1 s. Smallest u=10 m/s. Answer: 10 m/s."
+  },
+  {
+    "question": "A particle moves in a circle radius 2 m with angular position θ = t^3. Find magnitude of acceleration at t=1 s.",
+    "solution": "ω=dθ/dt=3t^2=3. α=6t=6. Tangential acceleration=rα=2×6=12. Centripetal=rω^2=2×9=18. Net acceleration = sqrt(12^2+18^2)=sqrt(144+324)=sqrt468=6√13. Answer: 6√13 m/s^2."
+  },
+  {
+    "question": "Two trains of length 100 m move in opposite directions at 20 m/s and 30 m/s. Time to completely cross each other?",
+    "solution": "Total distance to cover=200 m. Relative speed=50 m/s. Time=200/50=4 s. Answer: 4 s."
+  },
+  {
+    "question": "A particle's velocity varies as v = 1/(1+t). Find displacement from t=0 to t=3.",
+    "solution": "Displacement = ∫0^3 dt/(1+t) = ln(1+t)|0^3 = ln4. Answer: ln4 m."
+  },
+  {
+    "question": "A car accelerates uniformly from rest to 20 m/s in 10 s, then moves at constant speed for 20 s. Find total distance.",
+    "solution": "First phase: s1=(1/2)at^2 with a=2. So s1=1×100=100 m. Second phase: s2=20×20=400 m. Total=500 m. Answer: 500 m."
+  },
+  {
+    "question": "A projectile’s range is three times its maximum height. Find angle of projection.",
+    "solution": "Range= u^2 sin2θ/g. Max height=u^2 sin^2θ/(2g). Given R=3H: sin2θ = (3/2)sin^2θ. 2sinθcosθ = (3/2)sin^2θ → cancel sinθ gives 2cosθ=(3/2)sinθ → tanθ=4/3. θ=tan^-1(4/3). Answer: tan^-1(4/3)."
+  },
+  {
+    "question": "A particle starts from rest and moves such that acceleration equals velocity. Find velocity as function of time.",
+    "solution": "dv/dt=v. So dv/v=dt. ln v=t+C. With v(0)=0 impossible except trivial solution v=0. Hence v=0 always. Answer: v remains zero."
+  },
+  {
+    "question": "A stone thrown upward returns to ground in 4 s. Find maximum height.",
+    "solution": "Total time=4 so ascent=2 s. u=gt=20 m/s. Height=u^2/(2g)=400/20=20 m. Answer: 20 m."
+  },
+  {
+    "question": "A particle moves such that x = 3 sin(2t). Find maximum speed.",
+    "solution": "v=6 cos(2t). Maximum magnitude=6 m/s. Answer: 6 m/s."
+  },
+  {
+    "question": "Two particles move along same line: x1=4t, x2= t^2. Find relative acceleration.",
+    "solution": "a1=0, a2=2. Relative acceleration=2 m/s^2. Answer: 2 m/s^2."
+  },
+  {
+    "question": "A lift starts from rest, accelerates at 2 m/s^2 for 5 s, then moves uniformly. Speed after 5 s?",
+    "solution": "v=at=10 m/s. Answer: 10 m/s."
+  },
+  {
+    "question": "For what time interval is velocity decreasing if a = −4t + 8?",
+    "solution": "Velocity decreasing when acceleration negative: −4t+8<0 gives t>2 s. Answer: t>2 s."
+  },
+  {
+    "question": "A body dropped from height h takes time T. If dropped from 4h, time becomes?",
+    "solution": "Time proportional to √h. So new time=2T. Answer: 2T."
+  },
+  {
+    "question": "A particle’s velocity-time graph is triangular with base 4 s and height 10 m/s. Find displacement.",
+    "solution": "Area=1/2×4×10=20 m. Answer: 20 m."
+  },
+  {
+    "question": "A runner completes circular track of radius 7 m in 22 s. Average speed?",
+    "solution": "Distance=2πr=14π. Speed=14π/22=2π/ (22/7?) Actually 14π/22=7π/11≈2 m/s. Exact=14π/22=7π/11. Answer: 7π/11 m/s."
+  },
+  {
+    "question": "If angular velocity doubles, centripetal acceleration becomes?",
+    "solution": "a=rω^2. If ω doubles, acceleration becomes four times. Answer: 4 times."
+  },
+  {
+    "question": "Two balls thrown upward simultaneously with speeds 10 and 20 m/s. When will their separation be maximum?",
+    "solution": "Relative acceleration zero. Relative velocity constant 10 m/s. Separation increases linearly until first hits ground at 2 s. So maximum at 2 s. Answer: 2 s."
+  },
+  {
+    "question": "A particle moves so that v proportional to x. Nature of motion?",
+    "solution": "dv/dt = kx. Using v=dx/dt gives d^2x/dt^2=kx → exponential motion. Answer: Exponential growth/decay."
+  },
+  {
+    "question": "A projectile at highest point has speed equal to half initial speed. Find angle.",
+    "solution": "At top speed=u cosθ = u/2. So cosθ=1/2 → θ=60°. Answer: 60°."
+  },
+  {
+    "question": "A particle moves with constant speed in straight line. Acceleration?",
+    "solution": "Direction constant and speed constant → acceleration zero. Answer: 0."
+  },
+  {
+    "question": "If displacement is zero over interval, average velocity?",
+    "solution": "Average velocity = displacement/time = 0. Answer: 0."
+  },
+  {
+    "question": "A body projected horizontally with speed 10 m/s from height 5 m. Horizontal range (g=10)?",
+    "solution": "Time=√(2h/g)=√1=1 s. Range=10×1=10 m. Answer: 10 m."
+  },
+  {
+    "question": "Time difference between two particles dropped 1 s apart from same height. When separation maximum?",
+    "solution": "Separation increases continuously; maximum when first hits ground. Answer: At impact of first."
+  },
+  {
+    "question": "If velocity is constant magnitude but acceleration nonzero, motion must be?",
+    "solution": "Uniform circular motion. Answer: Circular motion."
+  },
+  {
+    "question": "For x=t^3−3t, find number of turning points.",
+    "solution": "v=3t^2−3=3(t^2−1). Zero at t=±1. Two turning points. Answer: 2."
+  },
+  {
+    "question": "Relative velocity of A w.r.t B if vA=3i+4j and vB=i−2j.",
+    "solution": "vA−vB=(2i+6j). Magnitude=√(4+36)=√40=2√10. Answer: 2√10."
+  },
+  {
+    "question": "A body travels first half time with speed v and second half with 2v. Average speed?",
+    "solution": "Equal time average=(v+2v)/2=3v/2. Answer: 3v/2."
+  },
+  {
+    "question": "If acceleration always perpendicular to velocity, speed changes?",
+    "solution": "Perpendicular acceleration changes direction only, not magnitude. Speed constant. Answer: No change."
+  },
+  {
+    "question": "A car covers equal distances at speeds 20 and 40 km/h. Average speed?",
+    "solution": "2v1v2/(v1+v2)=2×20×40/60=1600/60=26.67 km/h. Answer: 26.67 km/h."
+  },
+  {
+    "question": "Find time when velocity maximum if v=−t^2+4t+1.",
+    "solution": "Maximum at vertex: t=−b/(2a)=−4/(−2)=2 s. Answer: 2 s."
+  },
+  {
+    "question": "Particle moves in circle radius r with constant angular acceleration α. Tangential acceleration?",
+    "solution": "a_t=rα. Answer: rα."
+  },
+  {
+    "question": "A particle moves along x-axis with acceleration a(x)=k x (k>0). It starts from rest at x=x0>0. Find the speed as a function of x and the time to reach x=0.",
+    "solution": "Given a = dv/dt = v dv/dx. So v dv/dx = kx. Integrate: ∫ v dv = ∫ kx dx => (1/2)v^2 = (1/2)k x^2 + C. Using v=0 at x=x0 gives 0 = (1/2)k x0^2 + C => C = -(1/2)k x0^2. Hence v^2 = k(x^2 - x0^2). For x<x0, RHS is negative, so motion toward x=0 is impossible from rest if k>0 and x0>0 (acceleration points away from origin). Therefore it cannot reach x=0. Answer: v(x)=sqrt(k(x^2-x0^2)) is imaginary for 0<=x<x0; time to reach x=0 does not exist."
+  },
+  {
+    "question": "A particle moves on a straight line with velocity v(t)=u/(1+αt) (u,α>0). Find (i) displacement in time T, (ii) average acceleration over [0,T], and (iii) the time when it has covered half of its total displacement from t=0 to t=∞.",
+    "solution": "(i) s(T)=∫0^T u/(1+αt) dt = (u/α) ln(1+αT). (ii) Average acceleration = (v(T)-v(0))/T = (u/(1+αT) - u)/T = -uα/(1+αT) * 1/(?) compute: u/(1+αT)-u = u[(1-(1+αT))/(1+αT)] = -uαT/(1+αT). Divide by T gives a_avg = -uα/(1+αT). (iii) Total displacement to ∞: s∞=(u/α) ln(∞)=∞, diverges. So ‘half of total displacement’ is undefined. Answer: (i) (u/α)ln(1+αT), (ii) -uα/(1+αT), (iii) not defined (total displacement diverges)."
+  },
+  {
+    "question": "A particle has position x(t)=At^3+Bt^2+Ct+D. Given x(0)=0, x(1)=2, v(0)=1, and v(1)=5. Find x(2).",
+    "solution": "x(0)=D=0. v(t)=3At^2+2Bt+C. v(0)=C=1. x(1)=A+B+C+D = A+B+1=2 => A+B=1. v(1)=3A+2B+C=3A+2B+1=5 => 3A+2B=4. Solve with A+B=1: multiply second eq? From A+B=1 => B=1-A. Substitute: 3A+2(1-A)=4 => 3A+2-2A=4 => A=2. Then B=-1. Now x(2)=A*8 + B*4 + C*2 +0 = 16 -4 +2 = 14. Answer: 14."
+  },
+  {
+    "question": "A projectile is launched from ground with speed u. It must pass through point (R/2, H) and also land at x=R (same level). Find the possible angles and the condition for existence.",
+    "solution": "Trajectory: y = x tanθ - (g x^2)/(2u^2 cos^2θ). Given it lands at x=R with y=0: 0 = R tanθ - gR^2/(2u^2 cos^2θ). Using cos^-2 = 1+tan^2, let T=tanθ. Then 0 = RT - (gR^2/(2u^2))(1+T^2). Divide by R: T = (gR/(2u^2))(1+T^2). Rearranged: (gR/(2u^2))T^2 - T + (gR/(2u^2))=0. So T satisfies quadratic. Now apply point x=R/2: H = (R/2)T - (g(R/2)^2/(2u^2))(1+T^2) = (R/2)T - (gR^2/(8u^2))(1+T^2). But from landing equation: (gR/(2u^2))(1+T^2)=T => (gR^2/(8u^2))(1+T^2)= (R/4)T. Hence H = (R/2)T - (R/4)T = (R/4)T => T = 4H/R. Thus tanθ is fixed = 4H/R. Existence requires this T also satisfies landing quadratic: (gR/(2u^2))T^2 - T + (gR/(2u^2))=0. Substitute T=4H/R: (gR/(2u^2))((16H^2/R^2)) - (4H/R) + (gR/(2u^2))=0. Multiply by R: (g/(2u^2))(16H^2/R) -4H + (gR^2/(2u^2))/? actually multiply carefully: (gR/(2u^2))T^2 term times R gives (gR^2/(2u^2))T^2. Let's do directly: (gR/(2u^2))T^2 + (gR/(2u^2)) - T=0 => (gR/(2u^2))(T^2+1)=T. With T=4H/R gives (gR/(2u^2))((16H^2/R^2)+1)=4H/R. Multiply by R: (gR^2/(2u^2))*(16H^2/R^2 + 1)=4H. So (g/(2u^2))(16H^2 + R^2)=4H. Hence u^2 = (g(16H^2+R^2))/(8H). Angle: θ = arctan(4H/R) (unique). Condition: H>0 and u must satisfy above exactly; otherwise impossible. Answer: θ = arctan(4H/R); possible only if u^2 = g(16H^2+R^2)/(8H)."
+  },
+  {
+    "question": "A particle is thrown from the origin with speed u at angle θ. It must hit a target moving along x-axis with constant speed V, starting from x=L at t=0. Find condition(s) for hit and the time of hit.",
+    "solution": "Projectile coordinates: x=u cosθ t, y=u sinθ t - (1/2)gt^2. Target: x_t = L + Vt, y_t=0. For hit: y=0 at same t>0 and x=x_t. From y=0: t=0 or t = 2u sinθ/g. Use nonzero time t_hit = 2u sinθ/g. Then x_proj = u cosθ * t_hit = u cosθ * (2u sinθ/g) = (u^2 sin2θ)/g. Need x_proj = L + V t_hit = L + V(2u sinθ/g). So condition: (u^2 sin2θ)/g - (2Vu sinθ)/g = L. Multiply by g: u^2 sin2θ - 2Vu sinθ = gL. Factor sinθ: 2u sinθ(u cosθ - V) = gL. Existence requires RHS positive, so need sinθ>0 and (u cosθ - V) have same sign as L. For L>0, need u cosθ > V. Time of hit is fixed by θ: t_hit = 2u sinθ/g. Answer: Hit occurs iff 2u sinθ(u cosθ - V)=gL with u cosθ>V (for L>0); time t=2u sinθ/g."
+  },
+  {
+    "question": "A particle moves along x-axis with piecewise acceleration: a=+a0 for 0<t<T, and a=−a0 for T<t<2T. It starts from rest at x=0. Find (i) maximum displacement, (ii) displacement at t=2T, and (iii) total distance travelled.",
+    "solution": "0→T: u=0, a=a0. v(T)=a0T, x(T)=(1/2)a0T^2. T→2T: initial velocity a0T, acceleration -a0. Velocity decreases linearly to v(2T)=a0T - a0T =0. Hence it comes to rest at 2T without reversing. Displacement in second interval: x2 = v(T)*T + (1/2)(-a0)T^2 = a0T^2 - (1/2)a0T^2 = (1/2)a0T^2. Total displacement at 2T: x(2T)= (1/2)a0T^2 + (1/2)a0T^2 = a0T^2. Maximum displacement is at end since no reversal: xmax=a0T^2. Total distance travelled = displacement (no reversal) = a0T^2. Answers: (i) a0T^2, (ii) a0T^2, (iii) a0T^2."
+  },
+  {
+    "question": "A boat can move with speed u relative to water. River flows with speed v (v<u). The boat must go from point A to point B directly opposite across a river of width d but is allowed to choose any heading. Find (i) minimum time to reach the opposite bank (any landing point), (ii) minimum time to reach the point directly opposite.",
+    "solution": "(i) Minimum time to reach opposite bank ignoring drift: maximize cross-stream component. If boat aims perpendicular to flow, cross component = u, time = d/u. Any other heading reduces cross component, increasing time. So Tmin(any landing)=d/u. (ii) To land directly opposite, cancel drift: choose upstream component u_x = v. Then cross component u_y = sqrt(u^2 - v^2). Time = d/u_y = d/sqrt(u^2 - v^2). Answer: (i) d/u, (ii) d/sqrt(u^2 - v^2)."
+  },
+  {
+    "question": "A particle moves in 2D with position vector r(t) = (at)i + (bt^2)j. Find the angle between velocity and acceleration at time t, and the time when they are perpendicular.",
+    "solution": "v = dr/dt = a i + 2bt j. a_vec = dv/dt = 0 i + 2b j = 2b j. Angle φ between v and a: cosφ = (v·a)/( |v||a| ) = ( (a i + 2bt j)·(2b j) )/( sqrt(a^2+4b^2 t^2) * 2|b| ) = (4b^2 t)/(2|b| sqrt(a^2+4b^2 t^2)) = (2|b| t)/sqrt(a^2+4b^2 t^2) with sign of b absorbed in |b|. Perpendicular means v·a=0 => 4b^2 t=0 => t=0. Answer: cosφ = (2|b| t)/sqrt(a^2+4b^2 t^2); perpendicular at t=0."
+  },
+  {
+    "question": "A particle starts at origin with velocity u along +x and acceleration always of constant magnitude a but always perpendicular to its instantaneous velocity. Find speed and radius of curvature as functions of time.",
+    "solution": "If acceleration is always perpendicular to velocity, it changes only direction, not speed. So speed v(t)=u constant. Magnitude of normal acceleration is a_n = v^2/ρ, where ρ is radius of curvature. Given a_n = a, hence ρ = v^2/a = u^2/a (constant). Motion is uniform circular with constant speed u and constant curvature radius u^2/a. Answer: v=u (constant), ρ=u^2/a."
+  },
+  {
+    "question": "A particle is dropped from height h. Another particle is projected upward from ground at the same instant with speed u. They collide at height h/4 from ground. Find u.",
+    "solution": "Let collision time be t. Falling particle: y1 = h - (1/2)gt^2. Rising particle: y2 = ut - (1/2)gt^2. Given collision at y = h/4. From y1=h/4: h - (1/2)gt^2 = h/4 => (1/2)gt^2 = (3/4)h => t^2 = (3h)/(2g). Now use y2=h/4: ut - (1/2)gt^2 = h/4. But (1/2)gt^2 = 3h/4, so ut - 3h/4 = h/4 => ut = h. Hence u = h/t = h / sqrt(3h/(2g)) = sqrt( (2gh)/3 ). Answer: u = sqrt(2gh/3)."
+  },
+  {
+    "question": "A particle’s velocity is such that its speed equals the magnitude of its position vector: |v| = k|r| (k>0), and v is always tangential to the path (perpendicular to r). Find the trajectory and angular speed.",
+    "solution": "Given v ⟂ r means motion is circular around origin (r constant magnitude for pure tangential motion only if no radial component). But here |v|=k r and v is tangential: so r can be constant if the particle stays on a circle. If r constant = R, then speed v = kR constant. Angular speed ω = v/R = k. Thus ω constant and trajectory is a circle centered at origin with radius R determined by initial position. Answer: trajectory is circle r=R (constant), angular speed ω=k."
+  },
+  {
+    "question": "A car moves with speed v(x)=v0(1+βx) along a straight road (β>0). Find acceleration as a function of x and the time to go from x=0 to x=L.",
+    "solution": "Use a = v dv/dx. Here v=v0(1+βx), dv/dx=v0β. So a(x)=v*v0β = v0^2 β(1+βx). Time: dt=dx/v = dx/[v0(1+βx)]. Integrate 0→L: t = (1/v0) ∫0^L dx/(1+βx) = (1/(v0β)) ln(1+βL). Answer: a(x)=v0^2β(1+βx), t=(1/(v0β))ln(1+βL)."
+  },
+  {
+    "question": "A projectile is fired with speed u at angle θ. It hits an inclined plane passing through origin making angle α with horizontal (0<α<θ). Find the range along the plane.",
+    "solution": "Projectile: x=u cosθ t, y=u sinθ t - (1/2)gt^2. Plane: y = x tanα. Set y = x tanα: u sinθ t - (1/2)gt^2 = (u cosθ t) tanα = u cosθ t (sinα/cosα). Bring terms: u t (sinθ - cosθ tanα) = (1/2)gt^2. For t>0: t = [2u (sinθ - cosθ tanα)]/g = [2u (sinθ cosα - cosθ sinα)]/(g cosα)= [2u sin(θ-α)]/(g cosα). Now x = u cosθ t = u cosθ * [2u sin(θ-α)]/(g cosα). Distance along plane s = x / cosα = [2u^2 cosθ sin(θ-α)]/(g cos^2α). Answer: s = (2u^2 cosθ sin(θ-α))/(g cos^2α)."
+  },
+  {
+    "question": "A particle moves on x-axis with jerk (da/dt) constant = J. Initially at t=0: x=0, v=0, a=0. Find x(t).",
+    "solution": "Jerk: da/dt=J => a=Jt. Then dv/dt = Jt => v = (1/2)J t^2 (using v(0)=0). Then dx/dt = (1/2)J t^2 => x = (1/6)J t^3 (using x(0)=0). Answer: x(t)= (J t^3)/6."
+  },
+  {
+    "question": "Two particles A and B move on a line. At t=0, A is at 0 moving right with speed u. B is at L moving right with speed u/2. A has constant deceleration a, B has constant acceleration a (same magnitude). Find the minimum separation between them and when it occurs (assume they never collide).",
+    "solution": "Let xA=ut - (1/2)at^2. xB=L + (u/2)t + (1/2)at^2. Separation Δ = xB-xA = L + (u/2)t + (1/2)at^2 - ut + (1/2)at^2 = L - (u/2)t + a t^2. Minimize Δ(t): dΔ/dt = -u/2 + 2at = 0 => t* = u/(4a). Then Δmin = L - (u/2)(u/(4a)) + a (u^2/(16a^2)) = L - u^2/(8a) + u^2/(16a) = L - u^2/(16a). For ‘never collide’, need Δmin>0 => L > u^2/(16a). Answer: t=u/(4a), Δmin = L - u^2/(16a) with condition L>u^2/(16a)."
+  },
+  {
+    "question": "A particle moves such that its acceleration is always directed toward a fixed point O with constant magnitude a0. Initially it is at distance R from O with velocity perpendicular to OP and magnitude v0. Find the radius of the path if the motion is circular, and the condition for circular motion.",
+    "solution": "For circular motion about O, acceleration must be centripetal: a0 = v^2/R. Speed must remain constant if acceleration always perpendicular to v, which holds for uniform circular motion. Given initial v perpendicular to radius already. If the particle stays on circle of radius R, need a0 = v0^2/R. Condition: v0^2 = a0 R. Then radius is R (given) consistent. If not satisfied, motion not circular. Answer: circular iff v0^2=a0R; then path radius = R."
+  },
+  {
+    "question": "A particle is projected from ground with speed u at angle θ. At some time t it is at point P. A second projectile is fired from ground at time t with the same speed u but possibly different angle so that it hits P exactly at the firing instant of the second projectile plus its flight time. Find the required angle(s) for the second projectile in terms of t, u, θ, g.",
+    "solution": "Coordinates of P at time t from first: xP=u cosθ t, yP=u sinθ t - (1/2)gt^2. Second projectile starts from origin and must pass through (xP,yP). Its trajectory equation: y = x tanφ - (g x^2)/(2u^2 cos^2φ). Substitute x=xP, y=yP. Let T=tanφ. Then yP = xP T - (g xP^2)/(2u^2)(1+T^2). Rearranged: (g xP^2/(2u^2))T^2 - xP T + (g xP^2/(2u^2)) + yP = 0, a quadratic in T giving up to two angles. Plug xP,yP from above gives explicit quadratic. Answer: tanφ are the roots of: (g xP^2/(2u^2))T^2 - xP T + (g xP^2/(2u^2)) + yP = 0 with xP=u cosθ t, yP=u sinθ t - (1/2)gt^2."
+  },
+  {
+    "question": "A particle moves along a line with velocity v(t)=at - bt^2 (a,b>0). Find (i) maximum displacement from t=0 until it comes to rest, and (ii) total distance travelled until it comes to rest again after reversal.",
+    "solution": "v=at-bt^2 = t(a-bt). Zeros at t=0 and t=a/b. For 0<t<a/b, v>0 so it moves forward and comes to rest at t1=a/b. That is maximum displacement. Displacement s(t)=∫ v dt = ∫(at - bt^2)dt = (1/2)at^2 - (1/3)bt^3. Evaluate at t1=a/b: s_max = (1/2)a(a^2/b^2) - (1/3)b(a^3/b^3) = a^3/b^2 (1/2 - 1/3)= a^3/(6b^2). After t>a/b, v becomes negative and it reverses; it will return to origin when s(t)=0 for t>0. Solve s(t)=t^2( (1/2)a - (1/3)bt)=0 gives nonzero root t2 = (3a)/(2b). From t1 to t2 it travels backward distance equal to s_max (returns to origin). Thus total distance from start to t2 = forward s_max + backward s_max = 2s_max = a^3/(3b^2). Answer: (i) a^3/(6b^2), (ii) a^3/(3b^2)."
+  },
+  {
+    "question": "A particle moves in 1D under acceleration a = -ω^2 x (simple harmonic acceleration law). It starts from x=A with speed v0 toward the origin. Find the speed at x=0 and the condition to reach x=0.",
+    "solution": "Use energy form from v dv/dx = -ω^2 x. Integrate: (1/2)v^2 = -(1/2)ω^2 x^2 + C. At start x=A, v=v0 gives C=(1/2)(v0^2+ω^2 A^2). Thus v^2 = v0^2 + ω^2(A^2 - x^2). At x=0: v(0)=sqrt(v0^2+ω^2 A^2). Condition to reach x=0 is always satisfied for any finite v0 (since v^2 positive). Answer: v at origin = sqrt(v0^2+ω^2A^2); it always reaches x=0."
+  },
+  {
+    "question": "A person walks on a moving escalator. Escalator carries a person up in 60 s if he stands still. Person can climb the stationary escalator in 40 s. If he walks up on the moving escalator, time taken?",
+    "solution": "Let escalator length be L. Escalator speed ve = L/60. Person walking speed relative to escalator vp = L/40. On moving escalator upward, ground speed = ve+vp = L/60 + L/40 = L( (2+3)/120)=5L/120 = L/24. Time = L/(L/24)=24 s. Answer: 24 s."
+  },
+  {
+    "question": "Two particles start from same point with constant accelerations a and 2a along perpendicular directions. Both start from rest. Find their separation after time t and the angle of the separation vector with the direction of the first particle.",
+    "solution": "Displacements: r1 = (1/2)at^2 along x, r2 = (1/2)(2a)t^2 = a t^2 along y. Separation vector from first to second: Δr = ( - (1/2)at^2 ) xhat + (a t^2) yhat if comparing positions? Actually positions from origin: A at (1/2)at^2,0; B at (0, a t^2). Vector AB = (-1/2 at^2, a t^2). Magnitude = at^2 * sqrt( (1/2)^2 + 1^2 ) = at^2 * sqrt(1/4+1)=at^2*(√5/2). Angle with +x (direction of particle 1) satisfies tanφ = (a t^2)/( -1/2 a t^2)= -2, so φ is in second quadrant: φ = 180° - arctan(2). Answer: separation = (at^2√5)/2, angle = 180° - arctan(2) from +x."
+  },
+  {
+    "question": "A projectile is fired with speed u. Show that for a given horizontal range R (same level landing), the minimum possible maximum height occurs at θ=45°, and find that minimum maximum height in terms of R,u,g.",
+    "solution": "For same-level projectile: R = (u^2 sin2θ)/g fixed. Max height H = u^2 sin^2θ/(2g). Express sin2θ=2sinθcosθ. Let s=sinθ, c=cosθ. Constraint: 2sc = gR/u^2 = constant = K. We need minimize H ∝ s^2 given fixed product sc. With K fixed, sc fixed. For given product sc, s^2 is minimized when s=c (by AM-GM or symmetry): s=c=1/√2 gives θ=45°. Then K=2*(1/2)=1, meaning R=u^2/g. More generally, for fixed R the angle is determined by sin2θ= gR/u^2; among the two complementary angles θ and 90°-θ, H differs. H(θ)=u^2 sin^2θ/(2g), H(90°-θ)=u^2 cos^2θ/(2g). Minimum is min(sin^2θ,cos^2θ) achieved when θ closer to 45°. Overall minimum over all θ occurs at θ=45° provided R<=u^2/g? Actually R fixed; if we are free to choose θ but keep R fixed, θ is constrained by sin2θ fixed, so minimum H occurs for the smaller of the two angles (<=45°). If specifically R=u^2/g then θ=45° unique. Minimum H = u^2/(4g) when θ=45°. In terms of R at θ=45°, R=u^2/g so Hmin = R/4. Answer: minimum max height occurs for the smaller angle; if R=u^2/g then θ=45° and Hmin=R/4."
+  },
+  {
+    "question": "A particle is moving on x-axis. Its speed is proportional to the square root of its distance from origin: v = k sqrt(x), x>=0. Starting at x=0 at t=0, find x(t).",
+    "solution": "v=dx/dt = k sqrt(x). Separate: dx/√x = k dt. Integrate: 2√x = kt + C. Using x(0)=0 gives C=0. Hence √x = (k/2)t => x(t) = (k^2/4)t^2. Answer: x=(k^2 t^2)/4."
+  },
+  {
+    "question": "A particle moves in a straight line such that its acceleration depends on time: a(t)=a0 cos(ωt). Initially v(0)=0, x(0)=0. Find the maximum speed attained and the first time it occurs.",
+    "solution": "v(t)=∫ a dt = (a0/ω) sin(ωt) + C, with v(0)=0 gives C=0. So v(t)=(a0/ω) sin(ωt). Maximum speed magnitude is a0/ω when sin=±1. First time it reaches maximum positive speed: ωt=π/2 => t=π/(2ω). Answer: vmax = a0/ω at t=π/(2ω)."
+  },
+  {
+    "question": "Two particles A and B move on concentric circles of radii R and 2R in the same plane with the same angular speed ω but opposite directions. Initially they are on the same radial line. Find the relative speed of A as seen from B and whether it is constant.",
+    "solution": "Velocities: vA = ωR tangential, vB = ω(2R)=2ωR tangential opposite direction at the instant. Relative velocity magnitude depends on angle between their velocity vectors. Since they move opposite directions, at any instant their tangents are opposite if their angular positions are same; but here angles evolve: θA=ωt, θB=-ωt, so their positions differ by 2ωt; tangential directions are rotated accordingly. Compute vectors: vA = ωR * t̂(θA), vB = 2ωR * t̂(θB) with t̂(θ) = (-sinθ, cosθ). Then v_rel = vA - vB. Its magnitude generally varies with t because the directions differ. Not constant. Answer: relative speed is time-dependent (not constant)."
+  },
+  {
+    "question": "A projectile is fired from height h above ground with speed u at angle θ above horizontal. Find time to hit ground and horizontal range. (Take ground at y=0, initial y=h).",
+    "solution": "Vertical motion: y(t)=h + u sinθ t - (1/2)gt^2. Hit ground when y=0: (1/2)gt^2 - u sinθ t - h = 0. Solve: t = [u sinθ + sqrt(u^2 sin^2θ + 2gh)]/g (positive root). Range: x = u cosθ * t. Answer: t = (u sinθ + √(u^2 sin^2θ + 2gh))/g, R = u cosθ * t."
+  },
+  {
+    "question": "A particle starts from x=0 with velocity u. Its acceleration is proportional to its velocity: a=λv (λ>0). Find x(t) and the distance covered in time T.",
+    "solution": "a=dv/dt=λv => dv/v = λ dt => v = u e^{λt}. Then x(t)=∫0^t u e^{λt} dt = (u/λ)(e^{λt}-1). Distance in time T is same as displacement (v>0): s(T)=(u/λ)(e^{λT}-1). Answer: x(t)=(u/λ)(e^{λt}-1), distance in T equals same."
+  },
+  {
+    "question": "A particle moves with constant acceleration a along x-axis. At time t1 it passes x=0 with speed v1, and at time t2 it passes x=0 again with speed v2 in opposite direction. Find a in terms of v1,v2,t1,t2.",
+    "solution": "Under constant acceleration, v(t)=v0+a t. Let at time t1 velocity be v1 (say positive). Then v0 = v1 - a t1. At time t2 velocity is -v2 (opposite direction). So -v2 = v0 + a t2 = (v1 - a t1) + a t2 = v1 + a(t2 - t1). Hence a(t2 - t1) = -v2 - v1 => a = -(v1+v2)/(t2 - t1). Answer: a = -(v1+v2)/(t2-t1)."
+  },
+  {
+    "question": "A particle moves such that its displacement-time graph is x(t)=t - floor(t) (fractional part). Find its velocity almost everywhere and average velocity over [0,N] where N is an integer.",
+    "solution": "x(t) resets every integer. For t in (n,n+1), x(t)=t-n so slope = 1. At integer points it has discontinuity (drops from 1 to 0), velocity undefined there. Over [0,N], net displacement = x(N)-x(0)=0-0=0 so average velocity =0/N=0. Answer: v=1 for non-integer t, undefined at integers; average velocity over [0,N] is 0."
+  },
+  {
+    "question": "A particle is projected with speed u at angle θ. Find the minimum distance from the origin during the flight (excluding t=0).",
+    "solution": "Position: x=u cosθ t, y=u sinθ t - (1/2)gt^2. Distance squared: r^2 = x^2 + y^2. Let’s minimize r^2 for t in (0, 2u sinθ/g). Compute r^2 = u^2 cos^2θ t^2 + (u sinθ t - (1/2)gt^2)^2. Differentiate w.r.t t, set to zero. Expand: r^2 = u^2 cos^2θ t^2 + u^2 sin^2θ t^2 - u g sinθ t^3 + (g^2/4)t^4 = u^2 t^2 - u g sinθ t^3 + (g^2/4)t^4. dr^2/dt = 2u^2 t - 3u g sinθ t^2 + g^2 t^3 = t(2u^2 - 3u g sinθ t + g^2 t^2)=0. Nonzero solutions from quadratic: g^2 t^2 - 3u g sinθ t + 2u^2=0. t = [3u g sinθ ± √(9u^2 g^2 sin^2θ - 8u^2 g^2)]/(2g^2) = (u/g)[ (3 sinθ ± √(9 sin^2θ - 8))/2 ]. Real requires 9 sin^2θ >= 8 => sinθ >= √(8/9)=2√2/3. If not, minimum occurs at endpoint near t→0+ (distance increases from 0), so minimum tends to 0 (but excluding 0, infimum 0). If real, plug smallest positive t into r(t). Answer: stationary minimum exists only if sinθ >= 2√2/3; otherwise the minimum (excluding launch) approaches 0 as t→0+."
+  },
+  {
+    "question": "A man runs on a straight road. His speed increases linearly from 0 to v0 in time T and then remains constant at v0. Find the distance covered in total time 3T/2.",
+    "solution": "For 0→T: v(t)= (v0/T)t. Distance s1=∫0^T (v0/T)t dt = (v0/T)(T^2/2)=v0T/2. For next interval T→3T/2 (duration T/2) at constant speed v0: s2=v0*(T/2)=v0T/2. Total s = v0T. Answer: v0T."
+  },
+  {
+    "question": "A particle moves on x-axis with v^2 = u^2 - 2ax where a>0. It starts at x=0 with speed u. Find stopping distance and time to stop.",
+    "solution": "Stopping when v=0: 0=u^2-2ax_stop => x_stop=u^2/(2a). For time: use v=dx/dt so dt=dx/v. With v = √(u^2-2ax). t = ∫0^{u^2/(2a)} dx / √(u^2-2ax). Let y=u^2-2ax => dy=-2a dx => dx = -dy/(2a). Limits: x=0 => y=u^2; x_stop => y=0. Thus t = ∫_{u^2}^{0} (-dy/(2a)) * 1/√y = (1/(2a))∫_0^{u^2} y^{-1/2} dy = (1/(2a)) [2√y]_0^{u^2} = (1/a) u. Answer: x_stop=u^2/(2a), t_stop=u/a."
+  },
+  {
+    "question": "A particle moves in 2D with velocity components vx = a, vy = bt (a,b>0). Find the path equation y(x) and curvature radius at time t.",
+    "solution": "dx/dt = a => x = at (take x(0)=0). dy/dt = bt => y = (1/2)bt^2 (y(0)=0). Eliminate t: t = x/a => y = (1/2)b (x^2/a^2) = (b/(2a^2)) x^2, a parabola. Curvature radius ρ = ( (1+(y')^2)^(3/2) )/|y''|. Here y' = (b/a^2)x, y''=b/a^2. So ρ(x)= ( (1+(b^2 x^2/a^4))^(3/2) ) / (b/a^2) = (a^2/b)(1 + (b^2 x^2/a^4))^(3/2). At time t, x=at so ρ(t)=(a^2/b)(1 + (b^2 a^2 t^2 / a^4))^(3/2)=(a^2/b)(1 + (b^2 t^2 / a^2))^(3/2). Answer: y=(b/(2a^2))x^2, ρ(t)=(a^2/b)(1 + (b^2 t^2/a^2))^(3/2)."
+  },
+  {
+    "question": "A particle moves on a line with velocity v = u - kt, but at time t = u/k it elastically reflects from a wall at its instantaneous position (velocity reverses sign instantly). Find its position as a function of time for t>u/k, assuming x(0)=0.",
+    "solution": "For 0<=t<=u/k: v=u-kt, so x(t)=∫(u-kt)dt = ut - (1/2)kt^2. At t1=u/k: x1 = u(u/k) - (1/2)k(u^2/k^2)= u^2/k - (1/2)(u^2/k)= u^2/(2k). Velocity just before hit: v=0. Reflection at zero speed changes nothing (still zero), but statement says elastic reflection at that instant; since velocity is zero, after reflection still zero. Then for t>t1, acceleration continues? v=u-kt would become negative, but reflection would reverse sign: effectively v becomes +|u-kt|. Since for t>t1, (u-kt) is negative, |u-kt|=kt-u. So v(t)=kt-u for t>t1. Now integrate from t1: x(t)=x1 + ∫_{t1}^t (kτ-u)dτ = x1 + (1/2)k(t^2-t1^2) - u(t-t1). Substitute t1=u/k and x1=u^2/(2k): x(t)=u^2/(2k) + (1/2)k(t^2 - u^2/k^2) - u(t - u/k) = u^2/(2k) + (1/2)kt^2 - (1/2)(u^2/k) - ut + u^2/k = (1/2)kt^2 - ut + u^2/k. Answer: x(t)=ut-(1/2)kt^2 for t<=u/k; x(t)=(1/2)kt^2 - ut + u^2/k for t>=u/k."
+  },
+  {
+    "question": "A particle is thrown vertically upward from ground with speed u. Another particle is thrown upward from height h at the same instant with speed u/2. They collide in air. Find the collision time and height (g constant).",
+    "solution": "Let y1 = ut - (1/2)gt^2 (from ground). Second starts at y=h with initial speed u/2 upward: y2 = h + (u/2)t - (1/2)gt^2. Set y1=y2: ut = h + (u/2)t => (u/2)t = h => t = 2h/u. Height: y = ut - (1/2)g t^2 = u(2h/u) - (1/2)g(4h^2/u^2) = 2h - (2gh^2/u^2). Answer: t=2h/u, collision height = 2h - 2gh^2/u^2."
+  },
+  {
+    "question": "A particle moves with acceleration a = -c v where c>0 (linear drag model, 1D). It starts with velocity v0 at x=0. Find v(t) and x(t).",
+    "solution": "dv/dt = -c v => v = v0 e^{-ct}. Then x(t)=∫0^t v0 e^{-cτ} dτ = (v0/c)(1 - e^{-ct}). Answer: v(t)=v0 e^{-ct}, x(t)=(v0/c)(1-e^{-ct})."
+  },
+  {
+    "question": "A projectile is fired with speed u at angle θ. Find the time interval during which its speed is less than u/2 (assume such interval exists).",
+    "solution": "Velocity components: vx = u cosθ (constant), vy = u sinθ - gt. Speed squared: v^2 = u^2 cos^2θ + (u sinθ - gt)^2. Condition v < u/2 => v^2 < u^2/4. So u^2 cos^2θ + (u sinθ - gt)^2 < u^2/4. Expand: (u sinθ - gt)^2 < u^2/4 - u^2 cos^2θ = u^2(1/4 - cos^2θ)=u^2(sin^2θ - 3/4). Thus need sin^2θ > 3/4 (θ>60°). Then inequality becomes |u sinθ - gt| < u sqrt(sin^2θ - 3/4). Solve for t: u sinθ - u√(sin^2θ-3/4) < gt < u sinθ + u√(sin^2θ-3/4). Hence time interval length Δt = (2u/g)√(sin^2θ-3/4). Answer: exists only if θ>60°, and interval is t in ( (u/g)(sinθ - √(sin^2θ-3/4)), (u/g)(sinθ + √(sin^2θ-3/4)) ), length (2u/g)√(sin^2θ-3/4)."
+  },
+  {
+    "question": "A particle moves on x-axis with velocity v(t) = t^2 - 4t + 3 (m/s). Find the total distance travelled from t=0 to t=5 s.",
+    "solution": "We need distance = ∫|v| dt. First find where v changes sign: v=t^2-4t+3=(t-1)(t-3). So v>0 on [0,1), v<0 on (1,3), v>0 on (3,5]. Compute displacement piecewise.\nIntegral of v: ∫(t^2-4t+3)dt = (t^3/3) - 2t^2 + 3t.\n(1) 0→1 (v positive): s1 = F(1)-F(0) = (1/3) -2 +3 = 4/3.\n(2) 1→3 (v negative): displacement = F(3)-F(1). F(3)=9-18+9=0. F(1)=4/3. So displacement = -4/3. Distance there = 4/3.\n(3) 3→5 (v positive): s3 = F(5)-F(3). F(5)=125/3 -50 +15 = 125/3 -35 = (125-105)/3 = 20/3. So s3=20/3.\nTotal distance = 4/3 + 4/3 + 20/3 = 28/3 m.\nAnswer: 28/3 m."
+  },
+  {
+    "question": "A projectile is fired with speed u at angle θ from ground. It hits the ground at range R. Show that the maximum height H can be written in terms of R, u, g and choose the smaller-height trajectory if two angles are possible.",
+    "solution": "For same-level projectile: R = (u^2 sin2θ)/g. Also H = (u^2 sin^2θ)/(2g). Let s=sinθ, c=cosθ. Then sin2θ=2sc = gR/u^2.\nWe need H = (u^2/(2g)) s^2. Given fixed product sc, two angles θ and 90°-θ give same R, but heights differ: H(θ) ∝ s^2, H(90°-θ) ∝ c^2.\nUse identity: (s−c)^2 ≥ 0 ⇒ s^2 + c^2 ≥ 2sc ⇒ 1 ≥ 2sc = gR/u^2 ⇒ R ≤ u^2/g (existence).\nFor given R, 2sc fixed. The smaller height corresponds to smaller s^2, i.e. the smaller angle (θ ≤ 45°).\nTo express H in R,u,g: from 2sc = K where K=gR/u^2. Let s^2 = (1−cos2θ)/2 and sin2θ=K. Then cos2θ = √(1−K^2) for θ≤45° (cos2θ ≥ 0). So s^2 = (1−√(1−K^2))/2.\nHence H_mintraj = (u^2/(2g)) * (1−√(1−K^2))/2 = (u^2/(4g))(1−√(1−(gR/u^2)^2)).\nAnswer: for the lower trajectory, H = (u^2/(4g)) (1 − √(1 − (gR/u^2)^2)), with condition R ≤ u^2/g."
+  },
+  {
+    "question": "A boat has speed u relative to water. River flows with speed v (<u). The boat must reach the point directly opposite across width d. Find the minimum time and the required heading.",
+    "solution": "To land directly opposite, net x-velocity must be zero. So boat’s upstream component equals v: u_x = v. Then cross-stream component u_y = √(u^2 − v^2). Time = d/u_y = d/√(u^2−v^2).\nHeading: angle φ upstream from the perpendicular such that sinφ = v/u (or equivalently u_x = u sinφ = v).\nAnswer: Tmin = d/√(u^2−v^2), heading satisfies sinφ=v/u."
+  },
+  {
+    "question": "Two particles A and B start from the same point at t=0. A moves along +x with constant speed u. B moves such that its speed is also u but direction rotates with constant angular speed ω (so its velocity makes angle ωt with +x). Find B’s position vector and the distance between A and B at time t.",
+    "solution": "A: r_A(t) = (ut) i.\nB has velocity v_B = u(cos ωt i + sin ωt j). Integrate:\nr_B(t)=∫ v dt = (u/ω)(sin ωt i + (1−cos ωt) j), using r_B(0)=0.\nSeparation: Δr = r_A − r_B = [ut − (u/ω)sin ωt] i − (u/ω)(1−cos ωt) j.\nDistance squared:\n|Δr|^2 = [ut − (u/ω)sin ωt]^2 + (u/ω)^2(1−cos ωt)^2.\nAnswer: r_B=(u/ω)(sin ωt i + (1−cos ωt) j), and distance = √{[ut − (u/ω)sin ωt]^2 + (u/ω)^2(1−cos ωt)^2}."
+  },
+  {
+    "question": "A particle moves in a circle of radius R. Its angular position is θ(t)=αt^2. Find the magnitude of acceleration at time t.",
+    "solution": "ω=dθ/dt=2αt. Angular acceleration: β=dω/dt=2α.\nTangential acceleration: a_t = Rβ = 2αR.\nNormal (centripetal): a_n = Rω^2 = R(2αt)^2 = 4α^2Rt^2.\nMagnitude: a = √(a_t^2 + a_n^2) = √((2αR)^2 + (4α^2Rt^2)^2) = 2αR √(1 + 4α^2 t^4).\nAnswer: 2αR √(1 + 4α^2 t^4)."
+  },
+  {
+    "question": "A projectile is fired from the origin with speed u at angle θ. A constant horizontal wind gives the projectile an additional constant acceleration a_w along +x (besides gravity). Find x(t), y(t), and the equation of trajectory y(x).",
+    "solution": "Accelerations: a_x = a_w, a_y = −g.\nSo x(t)=u cosθ t + (1/2)a_w t^2, y(t)=u sinθ t − (1/2)g t^2.\nEliminate t: from x = u cosθ t + (1/2)a_w t^2 (a quadratic). Solve for t in terms of x:\n(1/2)a_w t^2 + (u cosθ)t − x = 0 ⇒ t = [−u cosθ + √(u^2 cos^2θ + 2a_w x)]/a_w (choose + root for t>0).\nThen y(x)=u sinθ t − (1/2)g t^2 with that t.\nAnswer: parametric forms above; trajectory obtained by substituting t(x)."
+  },
+  {
+    "question": "A particle has acceleration a = k v (k>0) along its direction of motion on a straight line. At t=0, v=v0 and x=0. Find v(t) and x(t).",
+    "solution": "dv/dt = k v ⇒ dv/v = k dt ⇒ v(t)=v0 e^{kt}.\nThen x(t)=∫0^t v0 e^{kτ} dτ = (v0/k)(e^{kt}−1).\nAnswer: v=v0 e^{kt}, x=(v0/k)(e^{kt}−1)."
+  },
+  {
+    "question": "A particle moves with acceleration a(x)=−kx (k>0) on a line. At x=A, it has speed v0 toward the origin. Find speed at x=0.",
+    "solution": "Use v dv/dx = a = −kx. Integrate: ∫ v dv = ∫ (−kx) dx ⇒ (1/2)v^2 = −(1/2)k x^2 + C.\nAt x=A, v=v0: (1/2)v0^2 = −(1/2)kA^2 + C ⇒ C=(1/2)(v0^2 + kA^2).\nAt x=0: (1/2)v^2 = C ⇒ v = √(v0^2 + kA^2).\nAnswer: √(v0^2 + kA^2)."
+  },
+  {
+    "question": "A car starts from rest, accelerates uniformly with acceleration a for time T, then decelerates uniformly with same magnitude a to come to rest. Total time is 2T. Find total distance and maximum speed.",
+    "solution": "After first phase: v_max = aT. Distance in first phase: s1=(1/2)aT^2.\nSecond phase symmetric: s2=(1/2)aT^2.\nTotal distance s = aT^2. Max speed = aT.\nAnswer: distance aT^2, max speed aT."
+  },
+  {
+    "question": "A particle moves on x-axis with v^2 = u^2 − 2ax (a>0). Starting at x=0 with speed u, find the time to stop.",
+    "solution": "Stop when v=0 ⇒ x_stop=u^2/(2a).\nTime: dt = dx/v = dx/√(u^2−2ax).\nLet y=u^2−2ax ⇒ dy=−2a dx ⇒ dx = −dy/(2a). Limits: x:0→u^2/(2a) corresponds y:u^2→0.\nSo t=∫0^{x_stop} dx/√(u^2−2ax) = ∫_{u^2}^{0} (−dy/(2a)) y^{−1/2} = (1/(2a))∫_0^{u^2} y^{−1/2}dy = (1/(2a)) [2√y]_0^{u^2} = u/a.\nAnswer: u/a."
+  },
+  {
+    "question": "Two particles move on a line with positions x1(t)=t^3−3t and x2(t)=2t. Find the number of times they meet for t≥0.",
+    "solution": "Meet when x1=x2 ⇒ t^3−3t = 2t ⇒ t^3−5t=0 ⇒ t(t^2−5)=0.\nFor t≥0 solutions: t=0 and t=√5. So they meet twice (including at start).\nAnswer: 2 times (t=0 and t=√5)."
+  },
+  {
+    "question": "A projectile is launched with speed u such that its trajectory just grazes (is tangent to) a horizontal line y=h at the highest point. Find the range.",
+    "solution": "Highest point height H = u^2 sin^2θ/(2g). Tangency at y=h means H=h ⇒ u^2 sin^2θ = 2gh.\nRange R = u^2 sin2θ / g = (u^2/g) 2sinθcosθ.\nGiven sinθ = √(2gh)/u. Then cosθ = √(1 − 2gh/u^2).\nSo R = (2u^2/g) sinθ cosθ = (2u^2/g) * (√(2gh)/u)*√(1−2gh/u^2) = (2u/g) √(2gh) √(1−2gh/u^2).\nAnswer: R = (2u/g) √(2gh) √(1−2gh/u^2), valid for u^2 ≥ 2gh."
+  },
+  {
+    "question": "A particle moves in 2D with x=at and y=bt^2 (a,b>0). Find the curvature radius as a function of time.",
+    "solution": "Eliminate t: t=x/a, so y=(b/a^2)x^2/?? Actually y=bt^2 = b(x^2/a^2) ⇒ y=(b/a^2)x^2.\nFor y(x)=Kx^2 where K=b/a^2: y' = 2Kx, y''=2K.\nRadius of curvature ρ = (1+(y')^2)^{3/2}/|y''|.\nSo ρ = (1+4K^2 x^2)^{3/2}/(2K).\nWith x=at: ρ(t) = (1+4K^2 a^2 t^2)^{3/2}/(2K) where K=b/a^2.\nCompute: 4K^2 a^2 = 4(b^2/a^4)*a^2 = 4b^2/a^2.\nAlso 2K = 2b/a^2.\nThus ρ(t) = (a^2/(2b)) * (1 + (4b^2 t^2/a^2))^{3/2}.\nAnswer: ρ(t) = (a^2/(2b)) (1 + 4b^2 t^2/a^2)^{3/2}."
+  },
+  {
+    "question": "A man stands on a platform and throws a ball vertically upward with speed u. At the same instant the platform starts moving upward with constant acceleration a (a<g). Find the time when the ball returns to the platform.",
+    "solution": "Take upward positive. Ball: y_b = ut − (1/2)gt^2. Platform: y_p = (1/2)at^2 (starting from same point, rest).\nReturn to platform when y_b = y_p:\nut − (1/2)gt^2 = (1/2)at^2 ⇒ ut = (1/2)(g+a)t^2.\nNonzero solution: t = 2u/(g+a).\nAnswer: 2u/(g+a)."
+  },
+  {
+    "question": "Two trains move on parallel tracks in same direction with speeds v and 2v. A man runs inside the slower train in the same direction with speed v relative to the train. Find his speed relative to ground and relative to the faster train.",
+    "solution": "Relative to ground: v_ground = v_train + v_rel = v + v = 2v.\nFaster train speed is 2v ground. Relative speed man w.r.t faster train = 2v − 2v = 0.\nAnswer: 2v (ground), 0 (w.r.t faster train)."
+  },
+  {
+    "question": "A projectile is thrown at angle θ. Find the minimum speed u required so that its trajectory passes through a given point (x0,y0) with x0>0,y0>0.",
+    "solution": "Trajectory: y = x tanθ − (g x^2)/(2u^2 cos^2θ).\nFor fixed point: y0 = x0 T − (g x0^2)/(2u^2)(1+T^2) where T=tanθ.\nRearrange for u^2: u^2 = (g x0^2 (1+T^2)) / (2(x0 T − y0)). Need x0T>y0.\nTo minimize u^2 over T, minimize f(T) = (1+T^2)/(x0T−y0).\nSet derivative zero: f' = 0 ⇒ (2T)(x0T−y0) − (1+T^2)(x0) = 0.\nExpand: 2x0T^2 −2y0T − x0 − x0T^2 = 0 ⇒ x0T^2 −2y0T − x0 =0.\nSo T = [2y0 + √(4y0^2 +4x0^2)]/(2x0) = (y0 + √(x0^2+y0^2))/x0 (positive root).\nPlug into u_min^2 formula; standard result simplifies to u_min^2 = g( y0 + √(x0^2+y0^2) ).\nAnswer: u_min = √( g( y0 + √(x0^2+y0^2) ) )."
+  },
+  {
+    "question": "A particle’s velocity components are vx = a and vy = bt/(1+t^2), with a,b>0. Starting from origin, find y as a function of x.",
+    "solution": "dx/dt = a ⇒ x=at (with x(0)=0). So t=x/a.\nNow dy/dt = b t/(1+t^2). Integrate: y = (b/2) ln(1+t^2) + C, with y(0)=0 gives C=0.\nSubstitute t=x/a: y(x) = (b/2) ln(1 + x^2/a^2).\nAnswer: y = (b/2) ln(1 + x^2/a^2)."
+  },
+  {
+    "question": "A projectile is launched from level ground with speed u at angle θ (0<θ<90°), landing back on the same level (no air resistance). Which statements are always true?\n(A) Time of flight = (2u sinθ)/g\n(B) Maximum height = (u^2 sin^2θ)/g\n(C) Range = (u^2 sin2θ)/g\n(D) Speed at the highest point = u cosθ",
+    "solution": "Answer: A, C, D.\nExplanation:\nTime of flight: vertical motion y = u sinθ t − (1/2)gt^2. Nonzero root gives T = 2u sinθ/g ⇒ (A) true.\nMaximum height: at top vy=0, so 0 = (u sinθ)^2 − 2gH ⇒ H = u^2 sin^2θ/(2g). Hence (B) is missing factor 1/2, so false.\nRange: R = u cosθ · T = u cosθ · (2u sinθ/g) = u^2 sin2θ/g ⇒ (C) true.\nAt highest point vy=0, vx=u cosθ unchanged ⇒ speed = u cosθ ⇒ (D) true."
+  },
+  {
+    "question": "A projectile is fired from the origin with speed u at angle θ. At time t>0 during flight, which of the following quantities are independent of g?\n(A) Horizontal component of velocity\n(B) Vertical component of velocity\n(C) Horizontal displacement\n(D) Radius of curvature of the trajectory at that instant",
+    "solution": "Answer: A, C.\nExplanation:\n(A) vx = u cosθ is constant and does not involve g.\n(B) vy = u sinθ − gt depends on g.\n(C) x = u cosθ · t depends only on u, θ, t (not g).\n(D) Curvature depends on acceleration magnitude (which includes g) and speed; e.g. for projectile, acceleration is (0,−g), so curvature/normal acceleration involves g. Thus (D) depends on g."
+  },
+  {
+    "question": "A particle moves along x-axis with velocity v(t)=t(t−2)(t−4) (SI units). Consider the interval t∈[0,5]. Which statements are correct?\n(A) The particle changes direction exactly twice.\n(B) The particle changes direction exactly three times.\n(C) The total distance travelled equals the total displacement.\n(D) The net displacement from t=0 to 5 is positive.",
+    "solution": "Answer: A, D.\nExplanation:\nDirection changes when v crosses 0 with sign change. Zeros at t=0,2,4.\nCheck signs: for 0<t<2, factors: (+)(−)(−)=+, so v>0. For 2<t<4: (+)(+)(−)=− so v<0. For 4<t<5: (+)(+)(+)=+ so v>0. Thus sign changes at t=2 and t=4 only ⇒ exactly twice ⇒ (A) true, (B) false.\nSince v changes sign, distance > |displacement| ⇒ (C) false.\nDisplacement is integral of v; positive intervals (0,2) and (4,5) compete with negative interval (2,4). Because the positive intervals are not symmetric in size, compute quickly by antiderivative or reasoning: near large t, v ~ t^3 dominates positive over [4,5] and positive over [0,2] is also significant; net comes out positive. More formally integrate: v=t^3−6t^2+8t. ∫0^5 v dt = [t^4/4 − 2t^3 + 4t^2]_0^5 = (625/4 − 250 + 100)=625/4 −150 = (625−600)/4=25/4 >0. Hence (D) true."
+  },
+  {
+    "question": "A car’s speed as a function of time is v(t)=v0(1−t/T)^2 for 0≤t≤T, and v=0 for t≥T. Which statements are correct?\n(A) Acceleration is constant during 0≤t≤T.\n(B) Acceleration is always negative during 0<t<T.\n(C) Total distance travelled up to t=T equals v0T/3.\n(D) The car comes to rest at t=T with nonzero acceleration.",
+    "solution": "Answer: B, C, D.\nExplanation:\nv=v0(1−t/T)^2. Then a=dv/dt = v0·2(1−t/T)(−1/T)= −(2v0/T)(1−t/T).\n(A) a depends on t ⇒ not constant.\n(B) For 0<t<T, (1−t/T)>0 ⇒ a<0 ⇒ true.\n(C) Distance s=∫0^T v0(1−t/T)^2 dt. Let y=t/T ⇒ dt=T dy: s=v0T∫0^1 (1−y)^2 dy = v0T[1/3] = v0T/3 ⇒ true.\n(D) At t=T, a(T)=−(2v0/T)(0)=0 from expression, but note the question says v=0 for t≥T (stays at rest), so acceleration is 0 after T. However exactly at t=T−, acceleration tends to 0; it is not nonzero. Wait: a(T−)=0. So (D) would be false if interpreted strictly. But check again: if the car’s rule switches piecewise, acceleration can be discontinuous at T; here both sides give 0, so it is zero. Therefore (D) is false.\nCorrected: Only B and C.\nAnswer: B, C."
+  },
+  {
+    "question": "Two particles A and B move along a straight line. At t=0, A is at x=0 with speed u to the right and constant acceleration −a. B is at x=L to the right of A, with speed 0 and constant acceleration +a. Assume L is large enough that they do not collide. Which statements are correct?\n(A) The separation between them is a quadratic function of time.\n(B) The separation has a minimum value.\n(C) The minimum separation equals L − u^2/(8a).\n(D) The time at which separation is minimum equals u/(4a).",
+    "solution": "Answer: A, B, D.\nExplanation:\nPositions: xA = ut − (1/2)at^2, xB = L + (1/2)at^2.\nSeparation Δ = xB−xA = L − ut + at^2, a quadratic ⇒ (A) true.\nA quadratic opening upward (coefficient +a>0) has a minimum ⇒ (B) true.\nMin at dΔ/dt = −u + 2at =0 ⇒ t* = u/(2a), not u/(4a). Wait: derivative of L − ut + at^2 is −u +2at, yes ⇒ t*=u/(2a). So (D) is false as written.\nΔmin = L − u·(u/(2a)) + a·(u^2/(4a^2)) = L − u^2/(2a) + u^2/(4a)= L − u^2/(4a). So (C) also false.\nCorrect options: A, B only.\nAnswer: A, B."
+  },
+  {
+    "question": "A projectile is fired with speed u. For a fixed range R (same level), two launch angles are possible: θ and (90°−θ). Which statements are correct?\n(A) Both angles have the same time of flight.\n(B) Both angles have the same maximum height.\n(C) The product of their times of flight is (4R^2 g)/(u^4)?\n(D) The larger angle gives the larger time of flight.",
+    "solution": "Answer: D.\nExplanation:\nFor same range: sin2θ is same for θ and 90°−θ. Time of flight T=2u sinθ/g.\nFor complementary angles, sin(90°−θ)=cosθ. So times: T1=2u sinθ/g, T2=2u cosθ/g.\n(A) equal only if sinθ=cosθ (θ=45°), not always ⇒ false.\n(B) heights: H= u^2 sin^2θ/(2g) vs u^2 cos^2θ/(2g), not equal unless θ=45° ⇒ false.\n(C) Product T1T2 = (4u^2 sinθ cosθ)/g^2 = (2u^2 sin2θ)/g^2. Since R=u^2 sin2θ/g ⇒ sin2θ = gR/u^2. Hence T1T2 = (2u^2*(gR/u^2))/g^2 = 2R/g. Not the stated expression ⇒ false.\n(D) Larger angle (>45°) has larger sinθ than cosθ, hence larger T ⇒ true."
+  },
+  {
+    "question": "A particle moves in a circle of radius R with angular position θ(t)=kt^2 (k>0). Which statements are correct at time t?\n(A) Angular speed is proportional to t.\n(B) Tangential acceleration is proportional to t.\n(C) Centripetal acceleration is proportional to t^2.\n(D) Total acceleration magnitude is proportional to t^2 for large t.",
+    "solution": "Answer: A, C, D.\nExplanation:\nω=dθ/dt=2kt ⇒ proportional to t ⇒ (A) true.\nAngular acceleration α=dω/dt=2k (constant). Tangential acceleration a_t=Rα=2kR constant, not ∝t ⇒ (B) false.\nCentripetal a_c=Rω^2 = R(2kt)^2 = 4k^2 R t^2 ⇒ ∝t^2 ⇒ (C) true.\nTotal a = √(a_t^2 + a_c^2). For large t, a_c dominates so a ~ a_c ∝ t^2 ⇒ (D) true."
+  },
+  {
+    "question": "A particle moves in 2D with position r(t)= (a t)i + (b t^2)j (a,b>0). Which statements are correct?\n(A) Its trajectory is a parabola.\n(B) Its speed increases monotonically for t>0.\n(C) Its acceleration is constant.\n(D) The angle between velocity and acceleration decreases with time for t>0.",
+    "solution": "Answer: A, B, C.\nExplanation:\nx=at, y=bt^2 ⇒ eliminate t: t=x/a ⇒ y=b(x^2/a^2), a parabola ⇒ (A) true.\nVelocity v=(a)i + (2bt)j. Speed |v|=√(a^2+4b^2 t^2), increases with t>0 ⇒ (B) true.\nAcceleration is derivative of v: a_vec = (0)i + (2b)j constant ⇒ (C) true.\nAngle between v and a: cosφ = (v·a)/(|v||a|) = ( (a,2bt)·(0,2b) )/( √(a^2+4b^2t^2)·2b ) = (4b^2 t)/(2b√(...)) = (2bt)/√(a^2+4b^2t^2). This increases with t (approaches 1), so φ decreases with time ⇒ (D) actually true. Wait: if cosφ increases, φ decreases. Yes. So (D) is also true.\nCorrect: A, B, C, D."
+  },
+  {
+    "question": "A particle is thrown vertically upward with speed u. Another is dropped from the same point at the same instant. Neglect air resistance. Which statements are correct?\n(A) They have the same acceleration at all times.\n(B) They have the same speed at the same height.\n(C) They cross each other at height u^2/(4g).\n(D) They meet again at the launch point after time 2u/g.",
+    "solution": "Answer: A, B, C.\nExplanation:\n(A) Both are under gravity only ⇒ acceleration = −g always ⇒ true.\n(B) At a given height y above launch, for the upward-thrown particle: v^2 = u^2 − 2gy (on the way up/down). For dropped particle: v^2 = 2gy. Not equal generally. But the question says 'same height' measured from same starting point: dropped has speed √(2gy), thrown has speed √(u^2−2gy). These are equal only when u^2−2gy=2gy ⇒ y=u^2/(4g). So (B) is not always true at any same height; but if interpreted as 'whenever they are at the same height at the same instant'—that’s not the case either. So (B) is false as a universal statement.\n(C) They meet when positions equal: y1=ut−(1/2)gt^2, y2=−(1/2)gt^2 (taking upward +). Setting equal gives ut=0 ⇒ only t=0. So they never meet after start if one is dropped from same point and the other thrown upward (they immediately separate). So (C) false.\n(D) Dropped particle does not return to launch point upward (it goes down). So false.\nOnly (A) is true.\nAnswer: A."
+  },
+  {
+    "question": "A projectile is launched from height h above ground with speed u at angle θ above horizontal. Which statements are correct?\n(A) Time to hit ground increases if θ increases (for fixed u,h).\n(B) Horizontal range increases if θ increases (for fixed u,h) for all θ.\n(C) Time to hit ground is given by t = [u sinθ + √(u^2 sin^2θ + 2gh)]/g.\n(D) For fixed u and h, there can be two different angles giving the same horizontal range.",
+    "solution": "Answer: C, D.\nExplanation:\nVertical equation: y(t)=h + u sinθ t − (1/2)gt^2. Set y=0 gives (1/2)gt^2 − u sinθ t − h=0. Positive root: t = [u sinθ + √(u^2 sin^2θ + 2gh)]/g ⇒ (C) true.\n(A) t depends on sinθ inside both terms; it generally increases with θ for 0→90°, but proving 'always' can fail if considering extreme h and u? Actually derivative is positive; still, JEE-style: not guaranteed monotonic for all parameter regimes? Safer: do not mark always true. So (A) not taken as universally true.\n(B) Range R = u cosθ · t(θ). Competing effects: cosθ decreases, t increases; R is not monotonic in θ ⇒ false.\n(D) Since R(θ) is not monotonic, two angles can give same range (common in such problems) ⇒ true."
+  },
+  {
+    "question": "A particle moves on a line with acceleration a = v^2 / L, where L is a positive constant and v is its speed. It starts with speed v0 at x=0 at t=0. Which statements are correct?\n(A) v increases exponentially with time.\n(B) v increases linearly with time.\n(C) v as a function of x satisfies v^2 = v0^2 e^{2x/L}.\n(D) The time to reach infinite speed is finite.",
+    "solution": "Answer: A, C.\nExplanation:\na = dv/dt = v^2/L ⇒ dv/v^2 = dt/L ⇒ -1/v = t/L + C. Using v(0)=v0 gives C = -1/v0. So 1/v = 1/v0 - t/L ⇒ v(t)= 1 / (1/v0 - t/L) = v0 / (1 - (v0 t)/L). This is not exponential and not linear ⇒ (A) false? Wait, that's time form: it diverges at t=L/v0 (finite-time blow-up). So (A) is false, (B) false.\nNow v vs x: use v dv/dx = v^2/L ⇒ dv/dx = v/L ⇒ dv/v = dx/L ⇒ ln v = x/L + const ⇒ v = v0 e^{x/L} ⇒ v^2 = v0^2 e^{2x/L} ⇒ (C) true.\n(D) From v(t)=v0/(1 - v0 t/L), speed becomes infinite at t = L/v0, finite ⇒ (D) true.\nSo correct: C, D. (Not A.)"
+  },
+  {
+    "question": "A particle moves with acceleration a(x)=−kx (k>0) along x-axis. At x=A it has speed v0 toward the origin. Which statements are correct?\n(A) Speed at x=0 equals √(v0^2 + kA^2).\n(B) The particle always reaches x=0 for any v0.\n(C) The particle can turn back before reaching x=0 if v0 is small enough.\n(D) The time to reach x=0 is independent of v0.",
+    "solution": "Answer: A, B.\nExplanation:\nUse v dv/dx = −kx ⇒ (1/2)v^2 = −(1/2)kx^2 + C. At x=A, v=v0 gives C=(1/2)(v0^2 + kA^2). At x=0, v^2 = v0^2 + kA^2 ⇒ (A) true.\nSince v^2 stays positive for x between A and 0, it can reach x=0 (no forbidden region) ⇒ (B) true.\nTurning before reaching x=0 would require v=0 at some x>0, impossible because v^2 = v0^2 + k(A^2 - x^2) >0 for x in [0,A]. So (C) false.\nTime does depend on v0 through the integral dt=dx/v; larger v0 makes it faster ⇒ (D) false."
+  },
+  {
+    "question": "A projectile is fired with speed u. Consider all possible launch angles giving the same range R on level ground (R ≤ u^2/g). Which statements are correct?\n(A) Among those angles, the smaller angle gives smaller maximum height.\n(B) Among those angles, the larger angle gives larger maximum height.\n(C) The sum of the two angles equals 90°.\n(D) The product of their maximum heights is independent of the chosen range R.",
+    "solution": "Answer: A, B, C.\nExplanation:\nFor fixed R: sin2θ is fixed. The two solutions are θ and 90°−θ ⇒ (C) true.\nHeights: H(θ)=u^2 sin^2θ/(2g), H(90°−θ)=u^2 cos^2θ/(2g). If θ<45°, then sinθ<cosθ so H(θ)<H(90°−θ). Thus (A) and (B) true.\nProduct: H1H2 = (u^4/(4g^2)) sin^2θ cos^2θ = (u^4/(16g^2)) sin^2 2θ. Since sin2θ depends on range (sin2θ=gR/u^2), product depends on R ⇒ (D) false."
+  },
+  {
+    "question": "A ball is thrown horizontally from a height h with speed u. Neglect air resistance. Which statements are correct?\n(A) Time to hit the ground is √(2h/g).\n(B) The speed just before impact is √(u^2 + 2gh).\n(C) The angle of impact with horizontal is independent of u.\n(D) The horizontal range is proportional to u.",
+    "solution": "Answer: A, B, D.\nExplanation:\nVertical motion: y drop h = (1/2)gt^2 ⇒ t=√(2h/g) ⇒ (A) true.\nVertical speed at impact: vy=gt=√(2gh). Horizontal speed constant = u. Speed = √(u^2 + vy^2)=√(u^2+2gh) ⇒ (B) true.\nImpact angle tanφ = vy/u = √(2gh)/u depends on u ⇒ (C) false.\nRange R = u t = u √(2h/g) ⇒ proportional to u ⇒ (D) true."
+  },
+  {
+    "question": "A particle’s position is x(t)=t−⌊t⌋ (fractional part of t), for t≥0. Which statements are correct?\n(A) Its velocity equals 1 for all t.\n(B) Its velocity is undefined at integer t.\n(C) Average velocity over [0,N] where N is a positive integer is 0.\n(D) Total distance travelled over [0,N] equals N.",
+    "solution": "Answer: B, C, D.\nExplanation:\nFor t in (n,n+1), x=t−n so slope is 1 ⇒ velocity 1 there.\nAt integer t=n, x jumps from 1 (just before) to 0 (at n), so discontinuity ⇒ velocity undefined at integers ⇒ (B) true.\nNet displacement over [0,N] is x(N)−x(0)=0−0=0 ⇒ average velocity 0 ⇒ (C) true.\nDistance: in each unit interval it moves from 0 to 1 continuously, distance 1 per interval; jump at integer is instantaneous reset (not physical travel in continuous sense). In typical math interpretation of distance via integral of speed: ∫|v|dt over N units = N ⇒ (D) true."
+  },
+  {
+    "question": "A particle moves along x-axis with constant acceleration a. At times t1 and t2 it passes x=0 with velocities v1 and v2 respectively (v2 may be negative). Which statements are correct?\n(A) a = (v2 − v1)/(t2 − t1).\n(B) a = −(v1 + v2)/(t2 − t1) if the velocities are opposite in direction at the two crossings.\n(C) The motion must be periodic.\n(D) If v1>0 and v2<0, then the particle must have turned around between t1 and t2.",
+    "solution": "Answer: A, D.\nExplanation:\nWith constant acceleration, velocity is linear: v(t)=v(t1)+a(t−t1) ⇒ v2 = v1 + a(t2−t1) ⇒ a=(v2−v1)/(t2−t1). So (A) true.\n(B) is not a general formula; it only equals (v2−v1)/(Δt) if v2 is not replaced by its magnitude. Using magnitudes with sign flip can produce that expression, but it's not universally valid unless you redefine v2 as speed. So false as stated.\n(C) constant-acceleration motion is not periodic ⇒ false.\n(D) If velocity changes sign from + to −, it must pass through 0 at some time ⇒ turning point ⇒ true."
+  },
+  {
+    "question": "A projectile is launched from the origin. Its speed at the highest point is half its initial speed. Which statements are correct?\n(A) The launch angle is 60°.\n(B) The launch angle is 30°.\n(C) The time of flight is (2u sin60°)/g.\n(D) The maximum height is (3u^2)/(8g).",
+    "solution": "Answer: A, C, D.\nExplanation:\nAt highest point, speed = horizontal component = u cosθ. Given u cosθ = u/2 ⇒ cosθ=1/2 ⇒ θ=60° ⇒ (A) true, (B) false.\nTime of flight for level landing: T=2u sinθ/g = 2u sin60°/g ⇒ (C) true.\nMaximum height: H=u^2 sin^2θ/(2g) = u^2*(3/4)/(2g)=3u^2/(8g) ⇒ (D) true."
+  },
+  {
+    "question": "A particle moves in the plane with velocity v = (a)i + (bt)j (a,b>0). Which statements are correct?\n(A) The path is a parabola.\n(B) The acceleration is constant.\n(C) The speed is constant.\n(D) The direction of velocity approaches the +y direction as t→∞.",
+    "solution": "Answer: A, B, D.\nExplanation:\nIntegrate: x=at, y=(1/2)bt^2. Eliminate t: y=(b/(2a^2))x^2, a parabola ⇒ (A) true.\nAcceleration is dv/dt = (0)i + b j constant ⇒ (B) true.\nSpeed = √(a^2 + b^2 t^2) not constant ⇒ (C) false.\nAs t→∞, vy dominates vx, so velocity direction tends to +y ⇒ (D) true."
+  }
+]
